@@ -4,15 +4,6 @@ const listaSiATodo = [
     `console.log("si a todo");`,
     `Sipi apa topodopo`,
     `var fraseRepetitiva = "Si a Todo";`,
-    `01010011 
-    01101001 
-    00100000 
-    01100001 
-    00100000 
-    01110100 
-    01101111 
-    01100100 
-    01101111`,
     `Ewe kuyo yonke into`,
     `ใช่สำหรับทุกสิ่ง`,
     `No'nt a Nada'nt`,
@@ -43,5 +34,9 @@ $(function(){
 });
 
 function rotaFrases(){
-    $('#texto_SiATodo').text(listaSiATodo[Math.floor(Math.random()*listaSiATodo.length)])
+    $('#texto_SiATodo').fadeOut('slow', function(){
+        $('#texto_SiATodo').text(listaSiATodo[Math.floor(Math.random()*listaSiATodo.length)]);
+        $('#texto_SiATodo').fadeIn('slow');
+    })
+    
 };

@@ -1,0 +1,22 @@
+body {
+    background-image: url('../../Content/Images/Limon\ electrico.jpg');
+    background-size: cover;
+}
+
+#background_Texto{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+#texto_SiATodo{
+    padding-top: 15%;
+    font-size: 420%;
+}
