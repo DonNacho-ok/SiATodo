@@ -4,8 +4,8 @@ body {
 }
 
 #background_Texto{
-    width: 700px;
-    height: 400px;
+    width: 1000px;
+    height: 700px;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -14,9 +14,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     background: rgba(255, 255, 255, 0.35);
+    border: 2px solid;
+    border-radius: 25px;
+    vertical-align: middle;
 }
 
 #texto_SiATodo{
-    padding-top: 15%;
-    font-size: 420%;
+    vertical-align: middle;
+    font-size: 80%;
 }
